@@ -1,10 +1,21 @@
 <html>
 <head>
     <title>TASK 5</title>
+    <style>
+        table{
+            
+            margin-left: auto;
+            margin-right: auto;
+        }
+        button{
+            display: block;
+            margin: auto;
+        }
+    </style>
 </head>
 <body>
-  <h1>Registration form</h1>
-  <table border="1">
+  <h1 style="color: blue;text-align: center;">Registration form </h1>
+  <table border="1" >
     <form >
         <tr>
             <td>
@@ -56,7 +67,10 @@
        </tr>
        <tr>
         <td><label for="address">Address</label></td>
-        <td><input type="text" id="address"></td>
+    
+     <td><textarea></textarea> </td>
+        
+
        </tr>
        <tr>
         <td><label for="state">State</label></td>
@@ -83,14 +97,24 @@
        <input type="checkbox" id="telugu">
         <label for="telugu">Telugu</label></td>
         
-       </tr>      
+       </tr>   
+       <tr> 
+        <td colspan="2"><input type="checkbox" id="dec">
+            <label for="dec">Here I declare all the given details are true</label>
+        </td> 
+    </tr> 
+    <tr>
+        <td align="right" colspan="2">
+            Log in to <a href="https://ethnus.com/">Ethnus</a> website
+
+        </td>
+    </tr>  
     </form>
   </table>
+  <button >Register</button>
   
-  <table></table>
-  <tr>  <input type="checkbox" id="dec">
-    <label for="dec">Here I declare all the given details are true</label>
-</tr>
+
+
 
 </body>
 </html>
